@@ -1,0 +1,7 @@
+mixin test(one,two,text)
+	div(class=two)
+		div(class=one)=text
+body
+	link(rel="stylesheet", href="1.css")
+	+test("h1","main","大家好")
+	a(href="2.html") 链接

@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.main .h1 {
+  color: #ffa500;
+}
+.main {
+  background: #d0e4fe;
+}
